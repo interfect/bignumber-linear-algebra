@@ -1,5 +1,4 @@
 import assert from "assert";
-import Vec from "../src/vector";
 import Matrix from "../src/matrix";
 
 describe("Matrix creation", () => {
