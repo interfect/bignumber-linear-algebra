@@ -49,7 +49,7 @@ export default class Vec {
     return `[${this._vector.map((value) => value.toString()).join(', ')}]`;
   }
   copy(): Vec {
-    return new Vec(this._vector);;
+    return new Vec(this._vector);
   }
   size(): number {
     return this._vector.length;
@@ -79,7 +79,3 @@ export default class Vec {
     return new Vec(this._vector.map((value, index) => fn(value, get(index))));
   }
 }
-
-const emptyIntVec = (size: number, defaultValue: number = 0) => {
-
-};

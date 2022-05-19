@@ -39,12 +39,12 @@ export default class Matrix {
   }
 
   transpose(): Matrix {
-    let values: Vec[] = []
+    const values: Vec[] = []
     const elements = this._matrix.length > 0
       ? this._matrix[0].size()
       : 0;
     for (let column = 0; column < elements; column ++) {
-      let val: BigNumber[] = [];
+      const val: BigNumber[] = [];
       for (let row = 0; row < this._matrix.length; row ++) {
         val.push(this._matrix[row].get(column));
       }
