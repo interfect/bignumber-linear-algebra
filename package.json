@@ -1,9 +1,9 @@
 {
   "name": "@interfect/bignumber-linear-algebra",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "repository": "https://github.com/interfect/bignumber-linear-algebra",
-  "main": "index.ts",
+  "main": "build/index.js",
   "scripts": {
     "main": "npx ts-node src/index.ts",
     "build": "npx tsc",
