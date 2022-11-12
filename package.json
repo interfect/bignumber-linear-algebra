@@ -1,7 +1,8 @@
 {
-  "name": "bignumber-linear-algebra",
-  "version": "1.0.0",
+  "name": "@interfect/bignumber-linear-algebra",
+  "version": "1.0.1",
   "description": "",
+  "repository": "https://github.com/interfect/bignumber-linear-algebra",
   "main": "index.ts",
   "scripts": {
     "main": "npx ts-node src/index.ts",
@@ -10,7 +11,7 @@
     "test": "ts-mocha test/**/*.test.ts",
     "lint": "eslint . --fix --ext .ts"
   },
-  "author": "Žiga Franko G.",
+  "author": "Žiga Franko G., Interfect",
   "license": "ISC",
   "devDependencies": {
     "@tsconfig/node16": "^1.0.2",
