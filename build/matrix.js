@@ -37,12 +37,12 @@ class Matrix {
         return new Matrix(Array(height).map(() => vector_1.default.empty(width, defaultValue)));
     }
     transpose() {
-        let values = [];
+        const values = [];
         const elements = this._matrix.length > 0
             ? this._matrix[0].size()
             : 0;
         for (let column = 0; column < elements; column++) {
-            let val = [];
+            const val = [];
             for (let row = 0; row < this._matrix.length; row++) {
                 val.push(this._matrix[row].get(column));
             }

@@ -47,7 +47,6 @@ class Vec {
     }
     copy() {
         return new Vec(this._vector);
-        ;
     }
     size() {
         return this._vector.length;
@@ -77,5 +76,3 @@ class Vec {
     }
 }
 exports.default = Vec;
-const emptyIntVec = (size, defaultValue = 0) => {
-};
