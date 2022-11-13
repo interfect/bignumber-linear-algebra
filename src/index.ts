@@ -1,3 +1,4 @@
+import Matrix from './matrix'
+import Vec from './vector'
 
-export * from './matrix'
-export * from './vector'
+export { Matrix, Vec }

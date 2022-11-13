@@ -1,6 +1,6 @@
 {
   "name": "@interfect/bignumber-linear-algebra",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "",
   "repository": "https://github.com/interfect/bignumber-linear-algebra",
   "main": "build/index.js",
